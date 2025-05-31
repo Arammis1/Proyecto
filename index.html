@@ -2,151 +2,51 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto Grupo - Sitio Web</title>
+  <title>Galería</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-    header, footer {
-      background-color: #003366;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
       margin: 20px;
-      padding: 20px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     h2 {
-      color: #003366;
+      color: #0b3d91;
     }
-    .perfil {
+
+    h3 {
+      margin-top: 40px;
+    }
+
+    .contenedor {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
+      align-items: center;
     }
-    .estudiante {
-      background-color: #e6e6e6;
-      padding: 15px;
-      border-radius: 5px;
-      flex: 1 1 calc(50% - 40px);
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin: 8px 0;
-    }
-    .video-container {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    iframe, video {
-      border-radius: 8px;
+
+    video, img {
+      max-width: 350px;
+      height: auto;
+      border: 1px solid #ccc;
     }
   </style>
 </head>
 <body>
+  <h2>Galería</h2>
 
-  <header>
-    <h1>Proyecto Web en HTML</h1>
-    <p>Grupo de Estudiantes No. 5 - Introducción a los Sistemas de Cómputo</p>
-  </header>
+  <h3>Conceptos Principales - Base de Datos MYSQL</h3>
+  <div class="contenedor">
+    <video width="350" height="250" controls>
+      <source src="video.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+    <img src="img/MYSQL.jpg" alt="Diagrama MYSQL">
+  </div>
 
-  <section>
-    <h2>1. Perfil de los Estudiantes</h2>
-    <div class="perfil">
-      <div class="estudiante">
-        <h3>Daniel Habraham</h3>
-        <p>Edad: 20 años</p>
-        <p>Carrera: Ingeniería en Sistemas</p>
-        <p>Carnet: 5190-21-11495</p>
-        <img src="img/Daniel.jpg" alt="Daniel Habraham">
-      </div>
-      <div class="estudiante">
-        <h3>Jorge Leonel</h3>
-        <p>Edad: 21 años</p>
-        <p>Carrera: Ingeniería en Sistemas</p>
-        <p>Carnet: 5190-15-24013</p>
-        <img src="img/Jorge.jpg" alt="Jorge Leonel">
-      </div>
-      <div class="estudiante">
-        <h3>Javier Alexander</h3>
-        <p>Edad: 21 años</p>
-        <p>Carrera: Ingeniería en Sistemas</p>
-        <p>Carnet: 5190-25-17893</p>
-        <img src="img/Elias.jpg" alt="Javier Alexander">
-      </div>
-      <div class="estudiante">
-        <h3>Arammis Jafet</h3>
-        <p>Edad: 18 años</p>
-        <p>Carrera: Ingeniería en Sistemas</p>
-        <p>Carnet: 5190-25-11488</p>
-        <img src="img/Jafet.jpg" alt="Arammis Jafet">
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>2. Conceptos Principales - Base de Datos</h2>
-    <ul>
-      <li><strong>Firmware:</strong> Es un software especializado que reside en la memoria no volátil del hardware...</li>
-      <li><strong>Middleware:</strong> Facilita la comunicación entre aplicaciones y sistemas operativos distintos...</li>
-      <li><strong>Cuantificación de bits y bytes:</strong> Un byte equivale a 8 bits, permitiendo representar más datos...</li>
-      <li><strong>Arquitectura de un Sistema Operativo:</strong> Organización por capas para gestionar recursos y tareas...</li>
-      <li><strong>Bases de Datos en MySQL:</strong> Sistema de gestión de bases de datos relacional muy popular...</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>3. Componentes de Comunicación</h2>
-    <ul>
-      <li><strong>Sistema de Bases numéricas:</strong> Binario, decimal y hexadecimal en informática...</li>
-      <li><strong>Introducción a Redes:</strong> Dispositivos conectados para compartir recursos e información...</li>
-      <li><strong>Implementación de Redes:</strong> Diseño, instalación y configuración de redes...</li>
-      <li><strong>Manejo de octetos:</strong> Un octeto equivale a 8 bits; importante en redes...</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>4. Resolución de Problemas y Pseudocódigo</h2>
-    <ul>
-      <li><strong>Planteamiento y Resolución de Problemas:</strong> Identificar, analizar y solucionar problemas paso a paso...</li>
-      <li><strong>Algoritmos y Diagramas:</strong> Algoritmos representados por pseudocódigo o diagramas de flujo...</li>
-      <li><strong>Tipos de Operadores:</strong> Aritméticos, relacionales, lógicos y más...</li>
-      <li><strong>Constantes, Variables, Tipos de Instrucciones:</strong> Elementos básicos de la programación...</li>
-    </ul>
-  </section>
-
-  <section class="video-container">
-    <h2>Galería</h2>
-
-    <h3>Conceptos Principales - Base de Datos MYSQL</h3>
-   <iframe width="350" height="250" src="https://www.youtube.com/watch?v=JYO5-o0ELWY&t=5s" frameborder="0" allowfullscreen></iframe>
-
-    <img src="img/MYSQL.jpg" alt="Base de Datos MySQL" width="350">
-
-    <h3>Componentes de Comunicación</h3>
-    <iframe width="300" height="200" src="https://www.youtube.com/embed/-NToJj1y9mc" frameborder="0" allowfullscreen></iframe>
-    <img src="img/Componentes de Comunicación.png" alt="Componentes de Comunicación" width="350">
-
-    <h3>Resolución de Problemas y Pseudocódigo</h3>
-    <iframe width="300" height="200" src="https://www.youtube.com/embed/JYO5-o0ELWY" frameborder="0" allowfullscreen></iframe>
-    <img src="img/Resolución de Problemas y Pseudocódigo.jpeg" alt="Pseudocódigo" width="350">
-  </section>
-
-  <footer> 
-    <p>&copy; 2025 Grupo de Estudiantes No.5. Proyecto de HTML.</p>
-  </footer>
-
+  <h3>Componentes de Comunicación</h3>
+  <div class="contenedor">
+    <img src="img/Componentes de Comunicación.png" alt="Componentes de Comunicación">
+    <img src="img/Resolución de Problemas y Pseudocódigo.jpeg" alt="Resolución de Problemas">
+  </div>
 </body>
 </html>
