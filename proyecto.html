@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Grupo - Sitio Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #003366;
+    }
+    .perfil {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .estudiante {
+      background-color: #e6e6e6;
+      padding: 15px;
+      border-radius: 5px;
+      flex: 1 1 calc(50% - 40px);
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Proyecto Web en HTML</h1>
+    <p>Grupo de Estudiantes No. 5 - Indtroduccion a los Sistemas de Computo</p>
+  </header>
+
+  <section>
+    <h2>1. Perfil de los Estudiantes</h2>
+    <div class="perfil">
+      <div class="estudiante">
+        <h3>Daniel Habraham</h3>
+        <p>Edad: 20 años</p>
+        <p>Carrera: Ingeniería en Sistemas</p>
+        <p>carnet: 5190-21-11495</p>
+        <img src="img/Daniel.jpg" alt="Daniel Habraham">
+      </div>
+      <div class="estudiante">
+        <h3>Jorge Leonel</h3>
+        <p>Edad: 21 años</p>
+        <p>Carrera: Ingeniería en Sistemas</p>
+        <p>carnet: 5190-15-24013</p>
+        <img src="img/Jorge.jpg" alt="Jorge Leonel">
+      </div>
+      <div class="estudiante">
+        
+        <h3>Javier Alexander</h3>
+        <p>Edad: 21 años</p>
+        <p>Carrera: Ingeniería en Sistemas</p>
+        <p>carnet: 5190-25-17893</p>
+        <img src="img/Elias.jpg" alt="Javier Alexander">
+      </div>
+      <div class="estudiante">
+        <h3>Arammis Jafet</h3>
+        <p>Edad: 18 años</p>
+        <p>Carrera: Ingeniería en Sistemas</p>
+        <p>carnet: 5190-25-11488</p>
+        <img src="img/Jafet.jpg" alt="Arammis Jafet">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Conceptos Principales - Base de Datos</h2>
+    <ul>
+      <li><strong>Firmware:</strong> El Firmware es un tipo de software especializado que está incrustado directamente en el hardware de un dispositivo. A diferencia del software tradicional que se carga en la memoria RAM, el firmware reside en una memoria no volátil, como ROM, EPROM o Flash. Su función principal es controlar las operaciones de bajo nivel del hardware, actuando como un puente entre el sistema operativo y los componentes físicos.</li>
+      <li><strong>Middleware:</strong> El Middleware es una capa de software que se sitúa entre diferentes aplicaciones, sistemas operativos o bases de datos, facilitando su comunicación e interacción. Su propósito es simplificar el desarrollo de aplicaciones distribuidas, permitiendo que componentes de software heterogéneos trabajen juntos sin necesidad de que los desarrolladores gestionen directamente las complejidades de la red o los protocolos de comunicación.</li>
+      <li><strong>Cuantificación de bits y bytes:</strong> La cuantificación de bits y bytes es fundamental para entender cómo se representan y miden los datos digitales. La unidad más básica de información es el bit, que es un dígito binario (0 o 1). Un bit por sí solo no puede representar mucha información.
+
+Aquí es donde entra el byte. Un byte se compone de 8 bits. Al agrupar los bits de esta manera, se pueden representar un rango mucho mayor de valores. Por ejemplo, un byte puede representar 256 valores diferentes (desde 0 hasta 255), lo que es suficiente para codificar un solo carácter, como una letra o un número.</li>
+      <li><strong>Arquitectura de un Sistema Operativo:</strong> La arquitectura de un Sistema Operativo (SO) se refiere a la estructura interna y la organización de sus componentes, los cuales trabajan en conjunto para gestionar los recursos del sistema y proporcionar una interfaz para el usuario y las aplicaciones. Aunque existen diferentes tipos de arquitecturas, la mayoría de los SO modernos siguen un modelo por capas o modular.</li>
+      <li><strong>Bases de Datos en MySQL:</strong> MySQL es uno de los Sistemas de Gestión de Bases de Datos Relacionales (SGBDR) de código abierto más populares y ampliamente utilizados en el mundo. Su popularidad se debe a su fiabilidad, rendimiento, facilidad de uso y la gran comunidad de desarrolladores que lo soporta.
+
+En un SGBDR como MySQL, los datos se organizan en tablas, que son colecciones de filas y columnas. Cada tabla representa una entidad (por ejemplo, "Clientes" o "Productos"), y cada fila en la tabla representa una instancia de esa entidad. Las columnas definen los atributos de la entidad (por ejemplo, "Nombre", "Dirección", "Precio").</li>
+
+</ul>
+  </section>
+
+  <section>
+    <h2>3. Componentes de Comunicación</h2>
+    <ul>
+      <li><strong>Sistema de Bases numéricas:</strong> Los sistemas de bases numéricas son diferentes maneras de representar cantidades. Los más comunes en informática son:
+
+<p>Binario (Base 2): Utiliza solo dos dígitos: 0 y 1. Es el lenguaje fundamental de las computadoras, ya que se corresponde directamente con los estados de encendido/apagado (o verdadero/falso) de los componentes electrónicos.
+</p><p>Decimal (Base 10): Es el sistema que usamos en la vida diaria, con diez dígitos del 0 al 9.
+<p>Hexadecimal (Base 16): Utiliza 16 símbolos: del 0 al 9 y las letras A a F. Es muy usado en programación y redes para representar valores binarios grandes de forma más compacta y legible. Por ejemplo, un dígito hexadecimal puede representar exactamente 4 bits.</p></li>
+      <li><strong>Introducción a Redes:</strong> Una red es simplemente un conjunto de dispositivos interconectados que pueden compartir recursos e información. Estos dispositivos pueden ser computadoras, servidores, impresoras, teléfonos inteligentes, etc. La conexión puede ser física (con cables) o inalámbrica. El objetivo principal de una red es facilitar la comunicación y el intercambio de datos entre sus componentes.</li>
+      <li><strong>Implementación de Redes:</strong> La implementación de redes abarca todo el proceso de hacer que una red funcione. Esto incluye varias fases:
+
+Diseño: Planificar la topología de la red, seleccionar los equipos adecuados (routers, switches, cables, etc.) y decidir cómo se conectarán los dispositivos.
+Instalación: El montaje físico de los equipos y el tendido de los cables.
+Configuración: Establecer los parámetros de software en los dispositivos de red, como direcciones IP, protocolos de enrutamiento y medidas de seguridad, para asegurar que los datos fluyan correctamente.</li>
+      <li><strong>Manejo de octetos:</strong> Un octeto es una unidad de información digital equivalente a 8 bits. Es sinónimo de "byte", aunque el término "octeto" se prefiere en contextos de redes y telecomunicaciones para evitar cualquier ambigüedad, ya que históricamente en algunos sistemas un "byte" no siempre era de 8 bits.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Resolución de Problemas y Pseudocódigo</h2>
+    <ul>
+      <li><strong>Planteamiento y Resolución de Problemas:</strong> La resolución de problemas es una habilidad fundamental en informática y programación. Implica un enfoque estructurado para abordar desafíos y encontrar soluciones eficientes. El proceso generalmente incluye:
+    <p>Identificar el problema: Comprender claramente cuál es el desafío o la tarea a resolver. Esto a menudo implica definir las entradas que se tendrán y las salidas esperadas.</p>
+<p>Analizarlo: Descomponer el problema en partes más pequeñas y manejables, entendiendo sus requisitos y restricciones.</p>
+<p>Proponer soluciones: Generar una o varias estrategias para resolver el problema, considerando diferentes enfoques y la lógica necesaria.</p></li>
+      <li><strong>Algoritmos y Diagramas:</strong> Una vez que se tiene una idea de la solución, se formaliza a través de algoritmos y diagramas:
+
+Un algoritmo es una secuencia finita y bien definida de pasos lógicos y ordenados para resolver un problema o realizar una tarea. Piense en ello como una receta detallada.
+Los algoritmos se pueden representar de varias maneras, incluyendo:
+<p>Pseudocódigo: Una descripción de alto nivel de un algoritmo que se asemeja a un lenguaje de programación, pero está diseñado para ser legible por humanos y no tiene una sintaxis estricta. Es ideal para planificar la lógica antes de escribir código real.</p>
+<p>Diagramas de flujo: Representaciones gráficas de los pasos de un algoritmo, utilizando símbolos estandarizados para diferentes tipos de acciones (inicio/fin, proceso, decisión, entrada/salida).</p></li>
+      <li><strong>Tipos de Operadores:</strong> Los operadores son símbolos especiales que se utilizan para realizar operaciones sobre uno o más valores (llamados operandos). Son esenciales para construir expresiones lógicas y matemáticas en los algoritmos y programas:
+    <p>Aritméticos: Realizan operaciones matemáticas básicas como suma (+), resta (-), multiplicación (*), división (/) y módulo (%).</p>
+<p>Relacionales: Comparan dos valores y devuelven un resultado booleano (verdadero o falso), como igual a (==), diferente de (!=), mayor que (>), menor que (<), mayor o igual que (>=), menor o igual que (<=).</p>
+<p>Lógicos: Combinan o modifican expresiones booleanas, como AND (&& o AND), OR (|| o OR) y NOT (! o NOT).</p>
+<p>De asignación: Se utilizan para asignar un valor a una variable, siendo el más común el signo igual (=). También existen combinados como +=, -=, etc.</p>
+<p>Otros: Dependiendo del lenguaje, puede haber operadores de incremento/decremento (++, --), de concatenación de cadenas, bit a bit, entre otros.</p></li>
+    <li><strong>Constantes, Variables, Tipos de Instrucciones:</strong> Estos son los bloques de construcción fundamentales en cualquier lenguaje de programación:
+<p>Constantes: Son valores fijos que no cambian durante la ejecución de un programa. Por ejemplo, el valor de PI (3.14159) podría ser una constante.
+</p><p>Variables: Son espacios de almacenamiento en la memoria de la computadora que pueden contener datos. Su valor puede cambiar durante la ejecución del programa. Las variables tienen un nombre, un tipo de dato (por ejemplo, número entero, texto, booleano) y un valor.
+</p><p>Tipos de Instrucciones: Se refieren a los diferentes comandos o sentencias que un programa puede ejecutar. Incluyen:
+</p><p>Instrucciones de entrada/salida: Para que el programa interactúe con el usuario (leer datos, mostrar resultados).
+</p><p>Instrucciones de asignación: Para guardar valores en variables.
+</p><p>Instrucciones de control de flujo: Como condicionales (ej. SI... ENTONCES... SINO) y bucles (ej. PARA, MIENTRAS), que dictan el orden en que se ejecutan las otras instrucciones.
+</p>
+</li>
+    </ul>
+  </section>
+ <section class="video-container">
+    <h2>Galeria</h2>
+    <h3>Conceptos Principales - Base de Datos MYSQL</h3>
+    <video width="350px" height="250px" controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+   <img src="img/MYSQL.jpg">
+   <h3>Componentes de Comunicación</h3>
+    <iframe width="300" height="200" src="https://youtu.be/-NToJj1y9mc?si=-UUT3kI0wtEr5s5a" frameborder="0" allowfullscreen></iframe>
+    <img src="img/Componentes de Comunicación.png">
+    <h3>Resolución de Problemas y Pseudocódigo</h3>
+    <iframe width="300" height="200" src="https://youtu.be/JYO5-o0ELWY?si=0P6PVUzsQsDTmOlh" frameborder="0" allowfullscreen></iframe>
+    <img src="img/Resolución de Problemas y Pseudocódigo.jpeg">
+  </section>
+  <footer> 
+    <p>&copy; 2025 Grupo de Estudiantes No.5. Proyecto de HTML.</p>
+  </footer>
+
+</body>
+</html>
